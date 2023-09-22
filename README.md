@@ -6,6 +6,7 @@ binutils is also included for convenience. SAN-GCC uses binutils source from the
 
 -COMPILING LINUX KERNEL WITH SAN-GCC:
 
+$${\color{lightblue}COMPILE \space \color{lightblue}LINUX \space \color{lightblue}KERNEL}$$
 Make sure you have this toolchain in your PATH:
 
 [+] export PATH="$HOME/san-gcc/bin:$PATH"
