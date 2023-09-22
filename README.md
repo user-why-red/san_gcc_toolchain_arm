@@ -4,9 +4,8 @@ This toolchain targets the AArch32, AArch64, and x86_64 architectures. It is bui
 
 binutils is also included for convenience. SAN-GCC uses binutils source from the HEAD of the latest release branch, which allows us to have more upto date binutils compared to latest stable release as well as avoiding instability or breakage compared to bleeding edge binutils.
 
--COMPILING LINUX KERNEL WITH SAN-GCC:
+COMPILING LINUX KERNEL WITH SAN-GCC:
 
-$${\color{lightblue}COMPILE \space \color{lightblue}LINUX \space \color{lightblue}KERNEL}$$
 Make sure you have this toolchain in your PATH:
 
 [+] export PATH="$HOME/san-gcc/bin:$PATH"
