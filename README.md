@@ -14,14 +14,14 @@ Make sure you have this toolchain in your PATH:
 
 For an AArch64 cross-compilation setup, you must set the following variables. Some of them can be environment variables, but some must be passed directly to make as a command-line argument. It is recommended to pass all of them as make arguments to avoid confusing errors:
 
-[+] ARCH=arm64
+[+] ***ARCH=arm64***
 
-[+] CC=aarch64-linux-gcc (must be passed directly to make)
+[+] ***CC=aarch64-linux-gcc (must be passed directly to make)***
 
-[+] CROSS_COMPILE=aarch64-linux-
+[+] ***CROSS_COMPILE=aarch64-linux-***
 
 If your kernel has a 32-bit vDSO:
 
-[+] CROSS_COMPILE_ARM32=arm-linux-gnueabi-
+[+] ***CROSS_COMPILE_ARM32=arm-linux-gnueabi-***
 
 Note: Android kernels 4.19 and newer use the upstream variable CROSS_COMPILE_COMPAT. When building these kernels, replace CROSS_COMPILE_ARM32 in your commands and scripts with CROSS_COMPILE_COMPAT.
