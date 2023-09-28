@@ -10,7 +10,7 @@ binutils is also included for convenience. SAN-GCC uses binutils source from the
 
 Make sure you have this toolchain in your PATH:
 
-[+] export PATH="$HOME/toolchains/san-gcc/bin:$PATH"
+[+] ***export PATH="$HOME/toolchains/san-gcc/bin:$PATH"***
 
 For an AArch64 cross-compilation setup, you must set the following variables. Some of them can be environment variables, but some must be passed directly to make as a command-line argument. It is recommended to pass all of them as make arguments to avoid confusing errors:
 
