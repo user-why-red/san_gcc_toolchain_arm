@@ -2,10 +2,10 @@
 
 This is a GCC compiler toolchain that is built for kernel development. Builds are always made from the latest GCC(stable releases).
 
-###SUPPORTED HOST MACHINE ARCHITECTURES:
+### SUPPORTED HOST MACHINE ARCHITECTURES:
 Arm(64bit/32bit).
 
-###SUPPORTED TARGET ARCHITECTURES:
+### SUPPORTED TARGET ARCHITECTURES:
 Arm(64bit/32bit).
 x86_64.
 
