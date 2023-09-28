@@ -6,7 +6,7 @@ This is a GCC compiler toolchain that is built for kernel development. Builds ar
 Arm(64bit/32bit).
 
 ### SUPPORTED TARGET ARCHITECTURES:
-Arm(64bit/32bit).
+Arm(64bit/32bit),
 x86_64.
 
 This toolchain targets the AArch32, AArch64, and x86_64 architectures. It is built with LTO and O3 optimizations to reduce compile times as much as possible. Note that this toolchain is not suitable for anything other than bare-metal development; it has not been built with support for any libc or userspace development in mind.
